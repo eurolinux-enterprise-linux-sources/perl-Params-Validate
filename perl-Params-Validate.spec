@@ -8,7 +8,7 @@
 Summary:    Params-Validate Perl module
 Name:       perl-Params-Validate
 Version:    1.08
-Release:    2%{?dist}.1
+Release:    4%{?dist}
 License:    Artistic 2.0
 Group:      Development/Libraries
 URL:        http://search.cpan.org/dist/Params-Validate/
@@ -95,6 +95,12 @@ RELEASE_TESTING=1 %{!?with_network:SKIP_POD_NO404S=1} ./Build test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.08-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-3
+- Mass rebuild 2013-12-27
+
 * Wed Jul 31 2013 Petr Pisar <ppisar@redhat.com> - 1.08-2.1
 - Modernize spec file
 
